@@ -9,6 +9,7 @@ public class Nimgame {
         System.out.println("Enter the number of stones:");
         int n = sc.nextInt();
         System.out.println(canWinNim(n));
+        sc.close();
     }
 }
 
